@@ -59,7 +59,7 @@ export default function Header() {
       });
 
       const visibleSection =
-        sections.find((sec) => sec.top <= 100 && sec?.bottom >= 100) ||
+        sections.find((sec) => sec.top <= 100 && (sec?.bottom ?? -Infinity) >= 100) ||
         sections[0];
 
       if (visibleSection && visibleSection.href !== currentSection) {
