@@ -120,7 +120,7 @@ export const BlogSection = () => {
                 </div>
                 <a
                   target="_blank"
-                  href={`/blog/${post.slug}`}
+                  href={`${post.slug}`}
                   className="inline-flex items-center text-sm font-medium text-primary hover:underline group-hover:text-primary/80 transition-colors"
                 >
                   Read article
