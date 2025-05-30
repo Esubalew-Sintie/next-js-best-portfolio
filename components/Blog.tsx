@@ -10,7 +10,7 @@ const blogPosts = [
     date: "May 15, 2024",
     readTime: "8 min read",
     tags: ["Golang", "Microservices", "gRPC"],
-    slug: "scalable-microservices-golang",
+    slug: "https://nasriadzlani.medium.com/building-scalable-microservices-with-grpc-in-golang-a-step-by-step-guide-5d0aab2cd819",
   },
   {
     title: "Implementing Real-Time Features with Socket.io and NestJS",
@@ -19,7 +19,7 @@ const blogPosts = [
     date: "April 28, 2024",
     readTime: "6 min read",
     tags: ["NestJS", "Socket.io", "Real-time"],
-    slug: "realtime-socketio-nestjs",
+    slug: "https://medium.com/nestjs-ninja/real-time-chat-with-nestjs-and-socket-io-642d10044201",
   },
   {
     title: "Payment Gateway Integration Patterns in Ethiopian Fintech",
@@ -28,7 +28,7 @@ const blogPosts = [
     date: "March 10, 2024",
     readTime: "10 min read",
     tags: ["Fintech", "Payment Integration", "AddisPay"],
-    slug: "payment-gateway-patterns",
+    slug: "https://psi.org.et/index.php/blog/266-ethiopia-s-digital-finance-sector-overcoming-challenges-and-driving-financial-inclusion",
   },
   {
     title: "From Monolith to Microservices: Lessons Learned",
@@ -37,7 +37,7 @@ const blogPosts = [
     date: "February 22, 2024",
     readTime: "12 min read",
     tags: ["Architecture", "Refactoring", "E-commerce"],
-    slug: "monolith-to-microservices",
+    slug: "https://medium.com/@dagde.kalyani/from-monolith-to-microservices-lessons-learned-in-the-real-world-fe9e28f9a73d",
   },
   {
     title: "Optimizing React Performance with Next.js and shadcn/ui",
@@ -46,7 +46,7 @@ const blogPosts = [
     date: "January 15, 2024",
     readTime: "7 min read",
     tags: ["React", "Next.js", "Performance"],
-    slug: "optimizing-react-nextjs",
+    slug: " https://medium.com/@programmingAi/user-interfaces-with-shadcn-and-next-js-14-979740578556",
   },
   {
     title: "Event-Driven Architecture with Apache Pulsar",
@@ -55,7 +55,7 @@ const blogPosts = [
     date: "December 5, 2023",
     readTime: "9 min read",
     tags: ["Apache Pulsar", "EDA", "Backend"],
-    slug: "event-driven-pulsar",
+    slug: "https://streamnative.io/blog/developing-event-driven-microservices-apache-pulsar-part-i",
   },
 ];
 
