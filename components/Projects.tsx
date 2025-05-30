@@ -195,9 +195,11 @@ const allProjects = [
   },
 ];
 
+type Project = typeof allProjects[number];
+
 export const Projects = () => {
   const [showAll, setShowAll] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   // Display only 6 projects initially, show all when clicked
   const displayedProjects = showAll ? allProjects : allProjects.slice(0, 6);
